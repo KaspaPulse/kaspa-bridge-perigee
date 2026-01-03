@@ -34,6 +34,7 @@ instances:
     min_share_diff: 4096
     prom_port: ":2117"
     log_to_file: true
+<<<<<<< HEAD
     shares_per_min: 30
 
   # Instance 5: Very high difficulty pool (for very powerful miners)
@@ -49,3 +50,8 @@ instances:
     prom_port: ":2119"
     log_to_file: true
     shares_per_min: 30
+=======
+    # Optional: instance-specific overrides
+    # var_diff: true
+    # shares_per_min: 30
+>>>>>>> livelaugh/BridgeBinary
