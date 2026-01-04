@@ -27,7 +27,7 @@ struct Cli {
     #[arg(long, value_enum)]
     node_mode: Option<NodeMode>,
 
-    #[arg(long)]
+    #[arg(long, default_value = "--utxoindex --rpclisten=127.0.0.1:16110 --rpclisten-borsh=127.0.0.1:17110 --disable-upnp")]
     node_args: Option<String>,
 
     #[arg(long, action = clap::ArgAction::Append)]
